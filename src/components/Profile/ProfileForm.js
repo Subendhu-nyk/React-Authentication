@@ -23,7 +23,7 @@ const ProfileForm = () => {
           'Content-Type':'application/json'
         }
       }).then(res=>{
-        
+        console.log(res)
       })
   };
 
